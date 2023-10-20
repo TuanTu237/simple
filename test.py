@@ -19,7 +19,7 @@ def bandit(action):
     return random.normalvariate(means[action], stddevs[action])
 
 # Number of time steps
-num_steps = 1000
+num_steps = 100
 
 # Lists to store results
 average_rewards = []
